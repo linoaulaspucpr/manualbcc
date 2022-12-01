@@ -1,0 +1,96 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes"> 
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+        <meta charset="UTF-8" />
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="../../poliweek/css/instrucoes.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <script src="../../poliweek/js/bibliotecas/jquery-3.3.1.js"></script>
+        <script src="../../poliweek/js/bibliotecas/materialize/materialize-0.100.2.js"></script>
+        <link href="css/index.css" rel="stylesheet">
+        <script defer src="js/firebase.js"></script>
+        <script defer src="js/index.js"></script>
+
+    </head>
+    <body>
+        
+        <ul class="collapsible popout lista-manual">
+            <!--li class="collapsible-list">
+                <div class="collapsible-header">
+                    <div class="collapsible-header-icone"> <i class="material-icons">work</i> </div>
+                    <div class="collapsible-header-titulo"> Atividades Profissionais  </div>
+                    <div class="collapsible-header-pontos"> 30 pontos</div>
+                </div>
+                <div class="collapsible-body">
+
+
+
+              
+
+                </div>
+            </li-->
+
+
+          
+        </ul>
+
+
+
+
+
+        <div class="class-modal" id="class-modal" >
+            <div class="class-modal-dialog">
+                <div class="class-modal-titulo">
+                  <h3>Como cadastrar?</h3> 
+                  <div><i class="material-icons" onclick="fecharModal()">close</i></div>
+
+
+                </div>
+                <div class="modal-itens">
+                   <div class="modal-item-titulo">Descrição</div>
+                   <div class="modal-item-desc">Coloque uma breve explicação do que se trata a atividade.</div>
+                   
+                   <div class="modal-item-titulo">Data da Atividade</div>
+                   <div class="modal-item-desc">Coloque a data de quando se iniciou esta atividade e quando finalizou.</div>
+
+                   <div class="modal-item-titulo">Horas</div>
+                   <div class="modal-item-desc">Coloque a quantidade de horas realizadas.</div>
+
+                   <div class="modal-item-titulo">Horas Consideradas</div>
+                   <div class="modal-item-desc">Coloque a quantidade de <b>PONTOS</b> que esta atividade está proporcionando. Por mais que esteja escrito "Hora consideradas", neste campo deve ser colocado a pontuação!</div>
+
+                   <div class="modal-item-titulo">Grupo</div>
+                   <div class="modal-item-desc">Coloque "1-Atividades Complementares / 1.1-Atividades Complementares".</div>
+
+                   <div class="modal-item-titulo">Situação</div>
+                   <div class="modal-item-desc">Selecione a opção "Aberto".</div>
+
+                   <div class="modal-item-titulo">Data de entrega</div>
+                   <div class="modal-item-desc">Selecione a data atual que está entregando a atividade.</div>
+
+                   <div class="modal-item-titulo">Documento de Aprovação</div>
+                   <div class="modal-item-desc">Obrigatório o anexo do comprovante! </div>
+
+                   
+                </div>
+               
+          </div>
+      </div>
+    
+
+    </body>
+
+
+
+
+</html>
